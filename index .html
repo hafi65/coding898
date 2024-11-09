@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication with Function Parameters</title>
+</head>
+<body>
+    <h1>Multiplication Calculator</h1>
+    <p id="unity"></p>
+    <p id="demo5"></p>
+
+    <button type="button" onclick="myFunction()">Click Me</button> 
+
+    <p id="demo"></p>
+    
+    
+    <p id="demo1"></p>
+    
+    <p id="demo2"></p>
+    
+
+    <script>
+function my(x,y,r,t) {
+    if (t=== undefined) {
+        t = 4;
+        
+    }
+    return x * y + t - r;
+
+}
+document.getElementById("unity").innerHTML = my(5,7,8);
+
+function say(s,d,l,o,p,g) {
+    if (g=== undefined) {
+        g = 4;
+        
+    }
+    return p * s + o - d;
+
+}
+document.getElementById("demo5").innerHTML = say(5,7,8,6,2);
+
+var b= 5;
+
+
+function myFunction() {
+
+var a= 4;
+
+
+document.getElementById("demo"). InnerHTML = a;
+
+
+document.getElementById("demo1"), innerHTML = a; document.getElementById("demo2"), innerHTML = b;
+
+}
+
+
+
+
+    </script>
+</body>
+</html>
